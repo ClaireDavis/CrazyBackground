@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0hO-Tg-12d">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="036-NF-2xB" customClass="CrazyBackgroundView">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
+                                        <color key="backgroundColor" red="0.87564196434811392" green="0.28726572471308054" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="htG-6S-L6P" customClass="CrazyBackgroundView">
+                                        <rect key="frame" x="0.0" y="200" width="600" height="200"/>
+                                        <color key="backgroundColor" red="0.5248621913" green="1" blue="0.6244347468" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bpY-TH-019" customClass="CrazyBackgroundView">
+                                        <rect key="frame" x="0.0" y="400" width="600" height="200"/>
+                                        <color key="backgroundColor" red="0.3165767136" green="0.5265885119" blue="0.9660471907" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KLV-o1-ZRb">
+                                <rect key="frame" x="0.0" y="225" width="600" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" placeholder="YES" id="BcA-vj-IeA"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xfY-Tq-8rn">
+                                <rect key="frame" x="256" y="267" width="87" height="67"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" placeholder="YES" id="ClB-qD-47v"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x3c-nl-CtU">
+                                <rect key="frame" x="256" y="267" width="87" height="67"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" placeholder="YES" id="Rlq-o9-9x6"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N6r-l6-HKE">
+                                <rect key="frame" x="256" y="267" width="87" height="67"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" placeholder="YES" id="SDQ-p4-DlO"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oIc-PF-cId">
+                                <rect key="frame" x="256" y="267" width="87" height="67"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" placeholder="YES" id="cq2-Ue-Jdf"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vtn-Yh-c3t">
+                                <rect key="frame" x="256" y="267" width="87" height="67"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" placeholder="YES" id="khT-yY-aYI"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TrM-Mf-Ho7">
+                                <rect key="frame" x="256" y="267" width="87" height="67"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" placeholder="YES" id="hjH-xS-DKl"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a3F-wQ-9qp">
+                                <rect key="frame" x="256" y="267" width="87" height="67"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" placeholder="YES" id="gR7-wO-4wi"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KLV-o1-ZRb" firstAttribute="centerY" secondItem="0hO-Tg-12d" secondAttribute="centerY" placeholder="YES" id="54Z-Wi-nOK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0hO-Tg-12d" secondAttribute="trailing" constant="-20" id="IcO-2u-Zsg"/>
+                            <constraint firstItem="KLV-o1-ZRb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="205" placeholder="YES" id="WXL-Lb-5dq"/>
+                            <constraint firstItem="KLV-o1-ZRb" firstAttribute="leading" secondItem="0hO-Tg-12d" secondAttribute="leading" id="oN4-2P-nZB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0hO-Tg-12d" secondAttribute="bottom" id="sAU-7K-7VK"/>
+                            <constraint firstItem="0hO-Tg-12d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="veZ-Ix-Kmu"/>
+                            <constraint firstItem="0hO-Tg-12d" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="xNz-iO-cg4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="miniView" destination="KLV-o1-ZRb" id="MGM-mu-c9S"/>
+                        <outlet property="miniViewEight" destination="a3F-wQ-9qp" id="5H1-cJ-xc5"/>
+                        <outlet property="miniViewFive" destination="Vtn-Yh-c3t" id="bWY-1P-GoH"/>
+                        <outlet property="miniViewFour" destination="oIc-PF-cId" id="dT2-W5-z0C"/>
+                        <outlet property="miniViewSeven" destination="TrM-Mf-Ho7" id="Ik7-Ru-fVj"/>
+                        <outlet property="miniViewSix" destination="x3c-nl-CtU" id="dGE-JW-f2K"/>
+                        <outlet property="miniViewThree" destination="xfY-Tq-8rn" id="SlC-nA-H2t"/>
+                        <outlet property="miniViewTwo" destination="N6r-l6-HKE" id="wUg-37-1ty"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="252" y="377"/>
+        </scene>
+    </scenes>
+</document>
